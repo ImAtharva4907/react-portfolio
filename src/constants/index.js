@@ -47,7 +47,7 @@ export const PROJECTS = [
     title: "Portfolio",
     image: project4,
     description:
-      "This is my old portfolio which I have creatd in my 2nd year of college.",
+      "This is my old portfolio which I have created in my 2nd year of college.",
     technologies: ["HTML", "CSS", "Bootstrap"],
     link: "https://imatharva4907.github.io/My-PORTFOLIO/"
   },
