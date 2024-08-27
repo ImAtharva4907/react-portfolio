@@ -2,6 +2,8 @@ import project1 from "../assets/projects/project-1.jpg";
 import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
+import project5 from "../assets/projects/project-5.jpg";
+import project6 from "../assets/projects/project-6.jpg";
 
 export const HERO_CONTENT = `I'm Atharva Chauhan, studying Information Technology at Babu Banarasi Das Institute of Technology, set to graduate in 2025. I'm skilled in C, C++, Javascript Data Structures, and Algorithms. I'm also passionate about Amazon Web Services.`;
 
@@ -13,9 +15,9 @@ export const EXPERIENCES = [
     role: "Contributor",
     company: "GirlScript Summer of Code.",
     description: `I contributed to the GirlScript Summer of Code as a part-time, remote participant for 4 months. During this open-source program, I worked on various web development projects, utilizing technologies like jQuery, Bootstrap, HTML, CSS, JavaScript, and React.js. This experience allowed me to collaborate with other developers, enhance my technical skills, and contribute to meaningful projects in the open-source community.`,
-    technologies: ["HTML","CSS","Javascript", "React.js", "Next.js", "Bootstrap"],
+    technologies: ["HTML", "CSS", "Javascript", "React.js", "Next.js", "Bootstrap"],
   },
- 
+
 ];
 
 export const PROJECTS = [
@@ -28,16 +30,32 @@ export const PROJECTS = [
     link: "https://atharvakeeper.netlify.app/"
   },
   {
-    title: "TinDog",
+    title: "Voicemaker",
     image: project2,
+    description:
+      "Developed a web app that converts text into natural-sounding speech using AWS Polly. In Phase 1, I built the core functionality with React.js, enabling text input, speech generation, playback, and audio download. In Phase 2, I hosted the app on AWS S3, using IAM for access control, and deployed it as a static website accessible via an S3 endpoint URL.",
+    technologies: ["React.js", "AWS Polly", "AWS S3", "IAM"],
+    link: "https://github.com/ImAtharva4907/ImAtharva4907-Text-To-Speech-aws-hosting"
+  },
+  {
+    title: "TinDog",
+    image: project3,
     description:
       "Tindog is a website that helps dog owners find compatible matches for their pets. It is inspired by the popular dating app Tinder, but designed for dogs. I used HTML, CSS and Bootstrap to create this website.",
     technologies: ["HTML", "CSS", "Bootstrap"],
     link: "https://imatharva4907.github.io/Tindog/"
   },
   {
+    title: "Visualize Data using Amazon QuickSight",
+    image: project4,
+    description:
+      "In this project, I created dynamic visualizations by analyzing a dataset of best-selling books from Amazon.com. The data was stored in Amazon S3, and I used Amazon QuickSight to generate visualizations and dashboards. Key tools and technologies include Amazon S3 for cloud storage, Amazon QuickSight for analytics, and CSV and manifest.json files for dataset configuration.",
+    technologies: ["AWS S3", "AWS Quicksight"],
+    link: "https://github.com/ImAtharva4907/best-selling-books-aws"
+  },
+  {
     title: "Drum Kit",
-    image: project3,
+    image: project5,
     description:
       "I developed a web app that simulates a drum kit using HTML, CSS and JavaScript. It allows users to play different drum sounds by clicking on the screen or pressing keys on the keyboard.",
     technologies: ["HTML", "CSS", "Javascript", "jQuery"],
@@ -45,7 +63,7 @@ export const PROJECTS = [
   },
   {
     title: "Portfolio",
-    image: project4,
+    image: project6,
     description:
       "This is my old portfolio which I have created in my 2nd year of college.",
     technologies: ["HTML", "CSS", "Bootstrap"],
