@@ -22,8 +22,16 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
-    title: "Keeper App",
+    title: "Hirrd",
     image: project1,
+    description:
+      "Developed Hirrd, a full-stack job portal application, enabling recruiters to post jobs and candidates to apply and track applications. Implemented secure authentication using Google and custom email/password via Clerk. Built using ReactJS, Shad CN UI, Supabase, and deployed on Vercel.",
+    technologies: ["React","Shadcn UI","Clerk","Supabase"],
+    link: "https://hirrd-three.vercel.app/"
+  },
+  {
+    title: "Keeper App",
+    image: project2,
     description:
       "Keeper is a web-based application that replicates the core functionalities of Google Keep, designed for users who want to efficiently organize their notes, reminders, and tasks. Built using modern web technologies, the app offers a clean and intuitive interface where users can create, edit, and delete notes with ease.",
     technologies: ["HTML", "CSS", "React"],
@@ -31,35 +39,27 @@ export const PROJECTS = [
   },
   {
     title: "Voicemaker",
-    image: project2,
+    image: project3,
     description:
       "Developed a web app that converts text into natural-sounding speech using AWS Polly. In Phase 1, I built the core functionality with React.js, enabling text input, speech generation, playback, and audio download. In Phase 2, I hosted the app on AWS S3, using IAM for access control, and deployed it as a static website accessible via an S3 endpoint URL.",
     technologies: ["React.js", "AWS Polly", "AWS S3", "IAM"],
     link: "https://github.com/ImAtharva4907/ImAtharva4907-Text-To-Speech-aws-hosting"
   },
   {
-    title: "TinDog",
-    image: project3,
-    description:
-      "Tindog is a website that helps dog owners find compatible matches for their pets. It is inspired by the popular dating app Tinder, but designed for dogs. I used HTML, CSS and Bootstrap to create this website.",
-    technologies: ["HTML", "CSS", "Bootstrap"],
-    link: "https://imatharva4907.github.io/Tindog/"
-  },
-  {
     title: "Visualize Data using Amazon QuickSight",
-    image: project4,
+    image: project5,
     description:
       "In this project, I created dynamic visualizations by analyzing a dataset of best-selling books from Amazon.com. The data was stored in Amazon S3, and I used Amazon QuickSight to generate visualizations and dashboards. Key tools and technologies include Amazon S3 for cloud storage, Amazon QuickSight for analytics, and CSV and manifest.json files for dataset configuration.",
     technologies: ["AWS S3", "AWS Quicksight"],
     link: "https://github.com/ImAtharva4907/best-selling-books-aws"
   },
   {
-    title: "Drum Kit",
-    image: project5,
+    title: "TinDog",
+    image: project4,
     description:
-      "I developed a web app that simulates a drum kit using HTML, CSS and JavaScript. It allows users to play different drum sounds by clicking on the screen or pressing keys on the keyboard.",
-    technologies: ["HTML", "CSS", "Javascript", "jQuery"],
-    link: "https://imatharva4907.github.io/Drum_kit/"
+      "Tindog is a website that helps dog owners find compatible matches for their pets. It is inspired by the popular dating app Tinder, but designed for dogs. I used HTML, CSS and Bootstrap to create this website.",
+    technologies: ["HTML", "CSS", "Bootstrap"],
+    link: "https://imatharva4907.github.io/Tindog/"
   },
   {
     title: "Portfolio",
