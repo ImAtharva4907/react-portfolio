@@ -1,9 +1,8 @@
 import project1 from "../assets/projects/project-1.jpg";
 import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
-import project4 from "../assets/projects/project-4.jpg";
 import project5 from "../assets/projects/project-5.jpg";
-import project6 from "../assets/projects/project-6.jpg";
+import project6 from "../assets/projects/algoReview.jpg";
 
 export const HERO_CONTENT = `I'm Atharva Chauhan, studying Information Technology at Babu Banarasi Das Institute of Technology, set to graduate in 2025. I'm skilled in C, C++, Javascript Data Structures, and Algorithms. I'm also passionate about Amazon Web Services.`;
 
@@ -26,7 +25,7 @@ export const PROJECTS = [
     image: project1,
     description:
       "Developed Hirrd, a full-stack job portal application, enabling recruiters to post jobs and candidates to apply and track applications. Implemented secure authentication using Google and custom email/password via Clerk. Built using ReactJS, Shad CN UI, Supabase, and deployed on Vercel.",
-    technologies: ["React","Shadcn UI","Clerk","Supabase"],
+    technologies: ["React.js","Shadcn UI","Clerk","Supabase"],
     link: "https://hirrd-three.vercel.app/"
   },
   {
@@ -34,7 +33,7 @@ export const PROJECTS = [
     image: project2,
     description:
       "Keeper is a web-based application that replicates the core functionalities of Google Keep, designed for users who want to efficiently organize their notes, reminders, and tasks. Built using modern web technologies, the app offers a clean and intuitive interface where users can create, edit, and delete notes with ease.",
-    technologies: ["HTML", "CSS", "React"],
+    technologies: ["HTML", "CSS", "React.js"],
     link: "https://atharvakeeper.netlify.app/"
   },
   {
@@ -46,6 +45,14 @@ export const PROJECTS = [
     link: "https://github.com/ImAtharva4907/ImAtharva4907-Text-To-Speech-aws-hosting"
   },
   {
+    title: "Algoreview",
+    image: project6,
+    description:
+      "Algo-Genius is an AI-powered code review tool that helps developers analyze code, optimize algorithms, and understand time-space complexity. Powered by Google's Gemini Model Flash 2.0, it enhances AI-driven analysis with memory, reasoning, and planning for efficient task completion.",
+    technologies: ["React.js", "Shadcn UI","Gemini 2.0 Flash","Node.js","Express.js"],
+    link: "https://algo-genius.vercel.app/"
+  },
+  {
     title: "Visualize Data using Amazon QuickSight",
     image: project5,
     description:
@@ -53,22 +60,7 @@ export const PROJECTS = [
     technologies: ["AWS S3", "AWS Quicksight"],
     link: "https://github.com/ImAtharva4907/best-selling-books-aws"
   },
-  {
-    title: "TinDog",
-    image: project4,
-    description:
-      "Tindog is a website that helps dog owners find compatible matches for their pets. It is inspired by the popular dating app Tinder, but designed for dogs. I used HTML, CSS and Bootstrap to create this website.",
-    technologies: ["HTML", "CSS", "Bootstrap"],
-    link: "https://imatharva4907.github.io/Tindog/"
-  },
-  {
-    title: "Portfolio",
-    image: project6,
-    description:
-      "This is my old portfolio which I have created in my 2nd year of college.",
-    technologies: ["HTML", "CSS", "Bootstrap"],
-    link: "https://imatharva4907.github.io/My-PORTFOLIO/"
-  },
+
 ];
 
 
