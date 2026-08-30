@@ -58,7 +58,7 @@ function Certifications() {
                 </div>
 
                 {/* Description */}
-                <p className="text-sm text-neutral-400 font-light leading-relaxed mb-4">
+                <p className="text-left text-sm text-neutral-400 font-light leading-relaxed mb-4">
                   {cert.description}
                 </p>
 

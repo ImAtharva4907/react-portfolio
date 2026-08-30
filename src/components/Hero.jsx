@@ -33,7 +33,7 @@ const Hero = () => {
               variants={container(0.8)}
               initial="hidden"
               animate="visible"
-              className="my-2 max-w-xl py-6 font-light tracking-tight text-center lg:text-left text-neutral-300 leading-relaxed">
+              className="my-2 max-w-xl py-6 font-light tracking-tight text-left text-neutral-300 leading-relaxed">
               {HERO_CONTENT}
             </motion.p>
             <Spotify variants={container(1.1)} />
