@@ -10,7 +10,7 @@ const TrailheadIcon = ({ className }) => (
     <svg
         fill="currentColor"
         viewBox="0 0 52 52"
-        className={className || "w-[1em] h-[1em] inline-block"}
+        className={className || "w-[1em] h-[1em] inline-block align-middle"}
         xmlns="http://www.w3.org/2000/svg"
     >
         <polygon points="12.3,37 9.7,40 14.8,40" />
@@ -29,19 +29,19 @@ const Navbar = () => {
                 </a>
             </div>
             <div className="mr-8 flex items-center justify-center gap-4 text-2xl">
-                <a href="https://www.linkedin.com/in/imatharva" target="_blank" rel="noopener noreferrer" title="LinkedIn">
+                <a href="https://www.linkedin.com/in/imatharva" target="_blank" rel="noopener noreferrer" title="LinkedIn" className="flex items-center">
                     <FaLinkedin />
                 </a>
-                <a href="https://github.com/ImAtharva4907" target="_blank" rel="noopener noreferrer" title="GitHub">
+                <a href="https://github.com/ImAtharva4907" target="_blank" rel="noopener noreferrer" title="GitHub" className="flex items-center">
                     <FaGithub />
                 </a>
-                <a href="https://www.instagram.com/real_atharvaa" target="_blank" rel="noopener noreferrer" title="Instagram">
+                <a href="https://www.instagram.com/real_atharvaa" target="_blank" rel="noopener noreferrer" title="Instagram" className="flex items-center">
                     <FaInstagram />
                 </a>
-                <a href="https://twitter.com/imatharvaaa" target="_blank" rel="noopener noreferrer" title="Twitter / X">
+                <a href="https://twitter.com/imatharvaaa" target="_blank" rel="noopener noreferrer" title="Twitter / X" className="flex items-center">
                     <FaSquareXTwitter />
                 </a>
-                <a href="https://leetcode.com/imatharva" target="_blank" rel="noopener noreferrer" title="LeetCode">
+                <a href="https://leetcode.com/imatharva" target="_blank" rel="noopener noreferrer" title="LeetCode" className="flex items-center">
                     <SiLeetcode />
                 </a>
                 <a
@@ -49,6 +49,7 @@ const Navbar = () => {
                     target="_blank"
                     rel="noopener noreferrer"
                     title="Salesforce Trailhead"
+                    className="flex items-center"
                 >
                     <TrailheadIcon />
                 </a>

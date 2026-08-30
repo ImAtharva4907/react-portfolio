@@ -39,7 +39,7 @@ const Hero = () => {
             <Spotify variants={container(1.1)} />
           </div>
         </div>
-        <div className="w-full lg:w-1/2 lg:p-8 ">
+        <div className="w-full lg:w-1/2 lg:p-8 mt-8 sm:mt-10 lg:mt-0">
           <div className="flex justify-center ">
             <motion.img
               initial={{ x: 100, opacity: 0 }}

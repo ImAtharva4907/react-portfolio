@@ -47,11 +47,11 @@ function Certifications() {
                 </div>
 
                 {/* Metadata */}
-                <div className="flex flex-wrap items-center justify-center md:justify-start gap-4 text-xs text-neutral-400 font-light mb-3">
+                <div className="flex items-center justify-center md:justify-start gap-2 sm:gap-3 text-[11px] sm:text-xs text-neutral-400 font-light mb-3 whitespace-nowrap overflow-x-auto">
                   <span>
                     <strong className="text-neutral-300">Issued:</strong> {cert.date}
                   </span>
-                  <span>•</span>
+                  <span className="text-neutral-600">•</span>
                   <span>
                     <strong className="text-neutral-300">Credential ID:</strong> {cert.credentialId}
                   </span>
